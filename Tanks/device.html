@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Device</title>
+    <link rel="stylesheet" href="./Content/css/tanks.css" />
+    <script src="./Content/JS/jquery-2.1.1.js"></script>
+    <script src="./Content/JS/DeviceJS.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var dev;
+            dev = new DeviceApp();
+            dev.init();
+        });
+    </script>
+
+    <script type="text/javascript">
+        eraseCookie('login');
+        var person = prompt("Please enter your name", "Gaute");
+
+        if (person != null) {
+            createCookie('login', person, 1);
+        }
+    </script>
+</head>
+<body>
+    <div class="deviceHeader">Tanks</div>
+    <div class="deviceAlarms" id="alarms">
+        <ul></ul>
+    </div>
+    <div class="connStatus"></div>
+</body>
+</html>

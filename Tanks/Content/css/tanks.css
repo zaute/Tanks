@@ -1,0 +1,206 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background-color: #e3e0d6;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.header 
+{
+    font-family: Verdana;
+    font-size: 50px;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+}
+
+.plantegning 
+{
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    border: 1px solid black;
+}
+
+.sensorPosition 
+{
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+/*oven*/
+.sensorPosition1
+{
+    position: fixed;
+    top: 572px;
+    left: 90px;
+}
+
+/*balcony*/
+.sensorPosition2
+{
+    position: fixed;
+    top: 188px;
+    left: 354px;
+}
+
+/*tv*/
+.sensorPosition3
+{
+    position: fixed;
+    top: 517px;
+    left: 500px;
+}
+
+/*downstairs*/
+.sensorPosition4
+{
+    position: fixed;
+    top: 298px;
+    left: 252px;
+}
+
+div.sensorOn 
+{
+    height:32px;
+    width: 32px;
+    background-image:url("../Images/alarmOn.png");
+    cursor: pointer;
+}
+
+div.sensorOff 
+{
+    height:32px;
+    width: 32px;
+    background-image:url("../Images/alarmOff.png");
+    cursor: pointer;
+}
+
+div.sensorSnooze
+{
+    height:32px;
+    width: 32px;
+    background-image:url("../Images/alarmSnooze.png");
+}
+
+.alarmPosition 
+{
+    position: fixed;
+    top: 69px;
+    left: 610px;
+    height:380px;
+    width:506px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.alarmOn 
+{
+    background-color: #f07682;
+    height:auto;
+    width:500px;
+    vertical-align:middle;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;    
+    cursor: pointer;
+}
+
+.alarmOff
+{
+    background-color: #a2f367;
+    height:auto;
+    width:500px;
+    vertical-align:middle;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+}
+
+.alarmAccept
+{
+    background-color: #f1f065;
+    height:auto;
+    width:500px;
+    vertical-align:middle;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.alarmSnooze
+{
+    background-color: lightgray;
+    height:auto;
+    width:500px;
+    vertical-align:middle;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.connStatus 
+{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+/* device administration styles*/
+.deviceAdmPosition 
+{
+    position: fixed;
+    top: 460px;
+    left: 610px;
+    height:196px;
+    width:506px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.deviceAdm
+{
+    background-color: #a2f367;
+    height:auto;
+    width:500px;
+    vertical-align:bottom;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+}
+
+/* device specific styles*/
+.deviceAlarms 
+{
+    position: fixed;
+    top: 69px;
+    left: 10px;
+    font-size:30px;
+}
+
+.deviceHeader 
+{
+    font-family: Verdana;
+    font-size: 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+}

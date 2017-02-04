@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>T a n k s</title>
+    <link rel="stylesheet" href="~/Content/css/tanks.css" />
+    <script src="~/Content/JS/jquery-2.1.1.js"></script>
+    <script src="~/Content/JS/ControllerJS.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ctrl;
+            ctrl = new ControllerApp();
+            ctrl.init();
+        });
+    </script>
+</head>
+<body>
+    <div id="devices" class="deviceAdmPosition">
+        Devices
+        <ul></ul>
+    </div>
+</body>
+</html>
